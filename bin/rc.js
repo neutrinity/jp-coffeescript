@@ -129,7 +129,7 @@ function getPackageVersion(packageName) {
 }
 
 function printVersions() {
-    console.log("coffee-script", require("coffee-script").VERSION);
+    console.log("coffeescript", require("coffeescript").VERSION);
     console.log("jmp", getPackageVersion("jmp"));
     console.log("jp-kernel", getPackageVersion("jp-kernel"));
     console.log("nel", getPackageVersion("nel"));
